@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* Add a black background color to the top navigation */
+.body {
+	padding-top: 60px;
+}
+
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+	width: 100%;
+	top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+th, td {
+	border: 0px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.timeInput {
+	border-bottom: 3px solid black;
+}
+
+th.rendelo {
+	border: 3px solid black
+}
+
+.alap {
+	width: 97%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	align: "center";
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alap.td {
+	border: 1px solid black;
+}
+
+.jobbvastag {
+	border-right: 3px solid black;
+}
+
+.jobbvastag2 {
+	border-right: 2px solid black
+}
+
+.balvastag {
+	border-left: 3px solid black
+}
+
+.balvastag2 {
+	border-left: 2px solid black
+}
+
+.topvastag {
+	border-top: 3px solid black
+}
+
+.topvastag2 {
+	border-top: 2px solid black
+}
+
+.valami {
+	
+}
+
+.masod {
+	visibility: hidden;
+}
+
+th, td {
+	padding: 2px;
+	text-align: Center;
+}
+
+.YearButton:hover {
+	background-color: #38813c; /* Green */
+}
+
+.YearButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.modifyBeosztasButton:hover {
+	background-color: #38813c; /* Green */
+}
+
+.modifyBeosztasButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.newBeosztasButton:hover {
+	background-color: #38813c; /* Green */
+}
+
+.newBeosztasButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.newEmployee:hover {
+	background-color: #38813c; /* Green */
+}
+
+.newEmployee {
+	margin-left: auto;
+	margin-right: auto;
+	align: "center";
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.listBeosztastd {
+	padding: 5px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-bottom: 1px solid #ddd;
+}
+
+.listBeosztasth {
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+.listBeosztastr:hover {
+	background-color: #ddd;
+}
+
+.modifyEmployeeButton:hover {
+	background-color: #38813c; /* Green */
+}
+
+.modifyEmployeeButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+.modifyEmployeeTable {
+	
+}
+
+.modifyEmployeeTable th {
+	
+}
+
+.select {
+	text-align: center;
+	text-align-last: center;
+}
+
+.beosztasOKButton:hover {
+	background-color: #38813c; /* Green */
+}
+
+.beosztasOKButton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.textarea {
+	resize: none;
+	width: 95%;
+}
+
+.alert {
+	color: #c60000;
+}
+.help {
+	color: #008000;
+}
